@@ -1,0 +1,21 @@
+﻿<!--
+* Filename:				ColourPicker.xaml
+* Project name:         EndOfLineGame
+* Programmer name:		Colin McMillan, Aaron Vos, Greg Ward
+* First useful version: 2015 December
+* Description:          The xaml page for the ColourPicker screen.
+-->
+    
+    
+<Page x:Class="EndOfLineGame.ColourPicker"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="300"
+	Title="ColourPicker">
+
+    <!-- The canvas to draw the colour picker tiles to. -->
+    <Canvas x:Name="ColourScreen"></Canvas>
+</Page>

@@ -1,0 +1,14 @@
+<!--
+    Filename:       Usage Notes & Bug List.txt
+    Authors:        Colin McMillan, Aaron Vos, Greg Ward
+    Date:           2015 December
+    -->
+
+Usage Instructions:
+- Run the installer (found in this folder or compiled into the EndOfLineGameInstaller directories)
+	to install the game.
+- The Microsoft Kinect SDK version 1.8 and Kinect toolkit may have to be installed before use.
+
+
+Error List:
+- No known bugs at this time.

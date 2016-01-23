@@ -1,0 +1,19 @@
+﻿<!--
+* Filename:				App.xaml
+* Project name:         EndOfLineGame
+* Programmer name:		Colin McMillan, Aaron Vos, Greg Ward
+* First useful version: 2015 December
+* Description:          The xaml description of the game application.
+-->
+    
+    
+    
+<Application x:Class="EndOfLineGame.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:EndOfLineGame"
+             StartupUri="MainWindow.xaml" Exit="Application_Exit">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

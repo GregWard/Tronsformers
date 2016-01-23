@@ -1,0 +1,28 @@
+﻿<!--
+* Filename:				InitialDetectionPage.xaml
+* Project name:         EndOfLineGame
+* Programmer name:		Colin McMillan, Aaron Vos, Greg Ward
+* Date:                 2015 December
+* Description:          The xaml definition of the Initial Detection Page.
+-->
+    
+    
+    
+<Page x:Class="EndOfLineGame.InitialDetectionPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:EndOfLineGame"
+      mc:Ignorable="d" 
+      d:DesignHeight="300" d:DesignWidth="606.977"
+      Title="InitialDetectionPage"
+      Loaded="InitialDetectPage_Loaded" Unloaded="Page_Unloaded">
+
+    <Canvas Name="canvas">
+        <Label Foreground="White" x:Name="Hello" Opacity="0" FontSize="48" >
+        </Label>
+
+
+    </Canvas>
+</Page>
